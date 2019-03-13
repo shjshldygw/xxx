@@ -50,7 +50,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 100
   order_by: -date
   
 # Category & Tag
@@ -79,5 +79,5 @@ theme: cactus-light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:shjshldygw/homepage.git
+  repo: git@github.com:shjshldygw/shjshldygw.github.io.git
   branch: master
