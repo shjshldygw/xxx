@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+
+  
+
+  
+    <meta name="author" content="John Doe">
+  
+
+  
+
+  
+
+  <title>Hexo</title>
+
+  
+
+  
+
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    <link href="https://cdn.bootcss.com/highlight.js/9.15.6/styles/default.min.css" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="container">
+    <!-- header -->
+<header class="header">
+  <div class="header-container ">
+    <nav class="header-navbar">
+      <div class="header-navbar-left">
+        <h1 class="header-navbar-logo">
+          <a href="/">
+            
+              Hexo
+            
+          </a>
+        </h1>
+      </div>
+      <div class="header-navbar-right">
+        <div class="header-navbar-btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="header-navbar-list">
+          
+            <li class="header-navbar-item"><a href="/">首页</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+    <section id="main"><!-- 首页 -->
+
+
+<!-- banner container -->
+<div class="banner-container">
+
+  
+  
+    <div class="banner-content full-content">
+      <div class="post-image" style="background-image: url(undefined)"></div>
+      <div class="post-text">
+        <h1 class="title-wrap">Hexo</h1>
+        
+      </div>
+    </div>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+</div>
+
+<!-- post list container -->
+<div class="body-container">
+  <div class="main-container article-list">
+    <div class="card-container card-articles">
+      <div class="card-wrap">
+        
+          
+          <div class="card-item">
+            <article>
+              
+              
+                <a class="article-link" href="/2019/09/17/001/" itemprop="url"></a>
+              
+              <h2 class="article-title">海拉尔</h2>
+              <div class="article-meta">
+                <strong>John Doe</strong>
+                <span>发布于</span>
+                
+  <a href="/2019/09/17/001/" class="article-date">
+    <time datetime="2019-09-16T16:00:00.000Z" itemprop="datePublished">2019-09-17</time>
+  </a>
+
+              </div>
+              <div class="article-category">
+                
+              </div>
+            </article>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- page container -->
+
+</section>
+
+    <!-- footer container -->
+<footer id="footer" class="footer">
+  <div class="footer-container">
+    <p>&copy; 2019 <a href="/" target="_blank">John Doe</a></p>
+
+    
+
+    
+
+    <p>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> Theme - <a href="https://github.com/miiiku/flex-block" target="_blank">flex-block</a></p>
+  </div>
+</footer>
+  </div>
+
+  
+  <!-- 尾部其他内容 -->
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<!-- waterfall 瀑布流 start -->
+<script src="/lib/waterfall.min.js"></script>
+<script type="text/javascript">
+
+const waterfallDOM = document.querySelector(".waterfall-container");
+
+if (waterfallDOM) {
+  initCss();
+  initWaterfall(".waterfall-container", waterfallDOM);
+}
+
+function initWaterfall(selector, el) {
+  const options = {};
+  if (Object.keys(el.dataset).length > 0) {
+    for (let k in el.dataset) {
+      options[k] = el.dataset[k];
+    }
+  }
+  waterfall(selector, options);
+}
+
+function initCss() {
+  let cssStyle = document.createElement("style")
+  cssStyle.innerText = `.waterfall-container p { display: block; border-radius: 4px; overflow: hidden; margin: 0; }`
+  document.head.appendChild(cssStyle);
+}
+</script>
+<!-- waterfall 瀑布流 end -->
+
+
+<!-- zoom 图片预览 start -->
+<script src="/lib/zoom.min.js"></script>
+<script>
+  document.querySelector(".zoom") && zoom(".zoom", {
+    margin: 15,
+    padding: 0,
+    radius: 0,
+    specify: "",
+    filter: "gallery",
+  });
+</script>
+<!-- zoom 图片预览 end -->
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>
